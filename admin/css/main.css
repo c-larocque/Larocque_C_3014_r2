@@ -1,0 +1,233 @@
+
+
+// Google fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600%7CRoboto:300,400');
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+body, p, label, input {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#loginBack {
+  background: url(../../images/login-background2.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* #loginPageCon {
+  background: url(../../images/login-background2.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 200px 0;
+} */
+
+h1 {
+  font-weight: 300;
+  color: #fff;
+  text-align: right;
+  width: 400px;
+  position: fixed;
+  right: 60px;
+  top: 60px;
+}
+
+#loginForm {
+  width: 300px;
+  height: 380px;
+  background-color: #fff;
+  display: block;
+  margin: 190px auto !important;
+  margin: 0 auto;
+  box-shadow: 1px 5px 10px rgba(0,0,0,.2);
+  padding: 20px;
+}
+
+#loginForm h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 0;
+  border-bottom: 1px solid #888;
+  font-weight: 300;
+  color: #555;
+}
+
+#loginForm label, input {
+  display: block;
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+#loginForm input {
+  padding: 15px;
+  width: 230px;
+  font-size: 14px;
+}
+
+#loginForm label {
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+.submitButton {
+  background-color: #555;
+  padding: 20px;
+  color: #fff;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  width: 150px !important;
+  border-radius: 7px;
+  border: none;
+}
+
+.submitButton:hover {
+  background-color: #2d9ddc;
+}
+
+#error {
+  text-align: center;
+  font-weight: 300;
+  color: red;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+#adminPanel {
+  background: url(../../images/apanel-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  padding: 30px;
+  text-align: right;
+  color: #fff;
+}
+
+.navBut {
+  display: inline-block;
+  margin: 5px;
+}
+
+header a {
+  text-decoration: none;
+  padding: 5px;
+  color: #fff;
+  background-color: #858585;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+header a:hover {
+  background-color: rgba(255,255,255,.7);
+  color: #333;
+}
+
+#adminPanel h2 {
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  font-size: 50px;
+  padding: 30px;
+  background-color: rgba(0,0,0,.2);
+}
+
+#panelFunct ul li {
+  display: inline-block;
+  margin-top: 150px;
+}
+
+.boxBut {
+  background-color: rgba(255,255,255,.7);
+  padding: 100px;
+  margin: 60px;
+}
+
+.boxBut a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-weight: 300;
+  color: #000;
+  font-size: 20px;
+}
+
+/*User Styling*/
+
+#userBack {
+  background: url(../../images/user-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#userForm {
+  width: 300px;
+  background-color: #fff;
+  display: block;
+  margin: 20px auto !important;
+  box-shadow: 1px 5px 10px rgba(0,0,0,.2);
+  padding: 20px;
+}
+
+#userForm h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 0;
+  border-bottom: 1px solid #888;
+  font-weight: 300;
+  color: #555;
+}
+
+#userForm label, input, select {
+  display: block;
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+#userForm input {
+  padding: 15px;
+  width: 230px;
+  font-size: 14px;
+}
+
+#userForm label {
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+#userForm select {
+  height: 40px;
+  width: 260px;
+}
+
+#passInput {
+  background-color: #efefef;
+  color: #757575;
+}
+
+#submitButton {
+  background-color: #555;
+  padding: 20px;
+  color: #fff;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  width: 150px !important;
+  border-radius: 7px;
+  border: none;
+}
+
+#submitButton:hover {
+  background-color: #2d9ddc;
+}
+
+#error {
+  text-align: center;
+  font-weight: 300;
+  color: red;
+  font-size: 12px;
+}
